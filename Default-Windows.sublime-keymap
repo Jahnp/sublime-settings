@@ -1,0 +1,29 @@
+[
+    { "keys": ["ctrl+shift+j"], "command": "code_intel_auto_complete" },
+    // { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+    { "keys": ["ctrl+f3"], "command": "goto_python_definition" },
+ 
+    {
+        "keys": [
+            "ctrl+e"
+        ],
+        "args": {
+            "action": "expand_abbreviation"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.expand_abbreviation"
+            }
+        ]
+    },
+ 
+    { "keys": ["ctrl+tab"], "command": "next_view" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+    { "keys": ["ctrl+u"], "command": "soft_undo" },
+    { "keys": ["ctrl+shift+u"], "command": "soft_redo" },
+
+    { "keys": ["ctrl+pagedown"], "command": "next_view_in_stack" },
+    { "keys": ["ctrl+pageup"], "command": "prev_view_in_stack" },
+    { "keys": ["ctrl+alt+/"], "command": "insert_snippet", "args": {"name": "Packages/User/less-banner-comment.sublime-snippet"} }
+]

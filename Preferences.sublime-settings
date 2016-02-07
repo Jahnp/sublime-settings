@@ -1,0 +1,45 @@
+{
+  "always_show_minimap_viewport": true,
+  "auto_complete_commit_on_tab": true,
+  "bold_folder_labels": true,
+  "color_scheme": "Packages/Color Scheme - Default/Pastels on Dark.tmTheme",
+  "enable_tab_scrolling": false,
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS"
+  ],
+  "font_size": 10,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "ActionScript",
+    "AutoFileName",
+    "Better TypeScript",
+    "ColorPicker",
+    "DocBlockr",
+    "GitGutter",
+    "GitGutter-Edge",
+    "Gutter Color",
+    "JavaScript Completions",
+    "JavaScript Patterns",
+    "jQuery",
+    "MSBuild",
+    "SublimeCodeIntel",
+    "SublimeGit",
+    "SublimeLinter",
+    "Sublimerge Pro",
+    "TypeScript",
+    "TypescriptCompletion",
+    "Vintage"
+  ],
+  "indent_to_bracket": true,
+  "match_brackets_angle": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "typescript_plugin_tsc_version": "1.6.2",
+  "word_wrap": true
+}
